@@ -1,0 +1,62 @@
+/*取消原来的默认样式*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+img {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: #646464;
+}
+
+h1, h2, h3 {
+    font-size: 16px;
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    display: inline-block;
+}
+
+body {
+    font-family: Arial, serif;
+    min-width: 1300px;
+}
+
+.l {
+    float: left;
+}
+
+.r {
+    float: right;
+}
+
+.clear:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+.container {
+    width: 1226px;
+    margin: 0 auto;
+    position: relative;
+}
+
+body {
+    font: 14px/1.5 Helvetica Neue, Helvetica, Arial, Microsoft Yahei, Hiragino Sans GB, Heiti SC, WenQuanYi Micro Hei, sans-serif;
+    color: black;
+    background-color: #fff;
+}
